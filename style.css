@@ -1,0 +1,68 @@
+:root {
+  --corporate-color-1: #7A573D;
+  --corporate-color-2: #dec1a2;
+}
+
+body, div, img, h1, h2, p, br, button, svg {
+  margin: 0;
+  padding: 0;
+}
+
+.background-color {
+  background-color: var(--corporate-color-2);
+  max-width: 100%;
+}
+
+.logo-box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.logo-image {
+  width: 15%;
+  height: auto;
+}
+
+.logo-text {
+  color: var(--corporate-color-1);
+  font-size: 4.5vw;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header-image {
+  height: 100vh;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: 84.5% 60%;
+}
+
+.column-90 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.v {
+  display: flex;
+  flex-direction: column;
+}
+
+.h {
+  display: flex;
+  flex-direction: row;
+}
+
+.centered-items {
+  align-items: center;
+}
+
+.centered-text {
+  text-align: center;
+}
